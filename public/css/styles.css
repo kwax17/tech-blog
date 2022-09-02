@@ -7,6 +7,7 @@ body {
   padding: 0;
   line-height: 1.5;
   font-size: 15px;
+  color: #38302e;
 }
 
 header {
@@ -26,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bolder;
   margin: 0;
   line-height: 1;
+  color: #38302e;
 }
 
 .title {
@@ -50,6 +52,19 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 40px;
 }
 
+.hero {
+  padding: 3% 4%;
+  background-color: #38302e;
+}
+
+.hero p {
+  max-width: 75%;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -60,6 +75,10 @@ input {
   background: #FFF;
   margin: 0 0 5px;
   padding: 10px;
+}
+
+.inline-btn {
+  display: inline;
 }
 
 .btn {
@@ -80,13 +99,37 @@ input {
   box-shadow: 2px 2px #38302e;
 }
 
-.hero {
-  padding: 3% 4%;
-  background-color: #38302e;
+.card {
+  margin: 0 0 20px 0;
+  border: 3px solid #38302e;
+  border-radius: .04rem;
 }
 
-.hero p {
-  max-width: 75%;
+.card-header {
+  background-color: #38302e;
+  padding: 1%;
+  border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+}
+
+.card-body {
+  padding: 1%;
+}
+
+.list-group {
+  padding: 1%;
+}
+
+.list-item {
+  margin-bottom: 10px;
+  padding: 1.5%;
+  border-radius: var(--border-radius);
+  background-color: var(--light-dark);
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.list-item:hover {
+  background-color: var(--dark);
 }
 
 .form-label, .form-input, .form-textarea {
@@ -106,12 +149,20 @@ input {
   border-radius: .04rem;
 }
 
-/* FLEX CONTENT */
+.footer a {
+  display: inline-block;
+  padding: 1em;
+  margin-bottom: .5em;
+  background-color: #38302e;
+  border-radius: .04rem;
+  text-decoration: none;
+}
+
+/* flex/display sizes */
 .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
-
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -129,3 +180,6 @@ input {
 .align-center {align-items: center}
 
 .col-auto {flex-grow: 1}
+
+.min-100-vh {min-height: 100vh}
+.min-100-vw {min-width: 100vw}
