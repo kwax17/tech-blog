@@ -3,6 +3,7 @@
 }
 
 body {
+  background-color: #72A38A;
   margin: 0;
   padding: 0;
   line-height: 1.5;
@@ -32,11 +33,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .title {
   font-size: 3rem;
+  background-color: #72A38A;
   color: #38302e;
-  padding: 0 10px;
+  padding: 0 20px;
   display: inline-block;
-  border-radius: .004rem;
-  box-shadow: 6px 5px #38302e;
+  border-radius: .4rem;
+  box-shadow: 6px 5px #6f6866;
 }
 
 .title a {
@@ -46,10 +48,15 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
   width: 100%;
   position: fixed;
+  background-color: #38302e;
 }
 
 .navBtn {
   margin: 0 40px;
+}
+
+.navBtn a {
+  color: #72A38A;
 }
 
 .hero {
@@ -84,8 +91,10 @@ input {
 .btn {
   display: block;
   margin: 5px 0;
-  border-radius: .04rem;
+  border-radius: .4rem;
   border: none;
+  color: #72A38A;
+  background-color: #38302e;
   font-size: 1.3rem;
   text-decoration: none;
   padding: 6px 5px;
@@ -95,6 +104,8 @@ input {
 }
 
 .btn:hover {
+  color: #72A38A;
+  background-color: #788585;
   transform: translate(0, 0);
   box-shadow: 2px 2px #38302e;
 }
@@ -102,13 +113,17 @@ input {
 .card {
   margin: 0 0 20px 0;
   border: 3px solid #38302e;
-  border-radius: .04rem;
+  border-radius: .4rem;
 }
 
 .card-header {
   background-color: #38302e;
   padding: 1%;
   border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+}
+
+.card-header h2 {
+  color: #72A38A;
 }
 
 .card-body {
@@ -122,14 +137,14 @@ input {
 .list-item {
   margin-bottom: 10px;
   padding: 1.5%;
-  border-radius: var(--border-radius);
-  background-color: var(--light-dark);
-  color: var(--primary);
+  border-radius: .4rem;
+  background-color: #6f6866;
+  color: #72A38A;
   text-decoration: none;
 }
 
 .list-item:hover {
-  background-color: var(--dark);
+  background-color: #38302e;
 }
 
 .form-label, .form-input, .form-textarea {
@@ -146,7 +161,7 @@ input {
   padding: 1%;
   margin: 5px 0;
   font-size: 1.2rem;
-  border-radius: .04rem;
+  border-radius: .4rem;
 }
 
 .footer a {
@@ -154,7 +169,7 @@ input {
   padding: 1em;
   margin-bottom: .5em;
   background-color: #38302e;
-  border-radius: .04rem;
+  border-radius: .4rem;
   text-decoration: none;
 }
 

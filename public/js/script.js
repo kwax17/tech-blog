@@ -97,7 +97,6 @@ document
 document
   .querySelector("#new-post-form")
   .addEventListener("submit", newPostHandler);
-
 // comment
 document
     .querySelector('#new-comment-form')
