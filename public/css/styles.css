@@ -123,6 +123,18 @@ input {
 }
 
 .card-header h2 {
+  color: #ccdad1;
+}
+
+.card-header h2 a {
+  color: #ccdad1;
+}
+
+.card-header h2:hover {
+  color: #72A38A;
+}
+
+.card-header h2 a {
   color: #72A38A;
 }
 
@@ -138,13 +150,13 @@ input {
   margin-bottom: 10px;
   padding: 1.5%;
   border-radius: .4rem;
-  background-color: #6f6866;
+  background-color: #38302e;
   color: #72A38A;
   text-decoration: none;
 }
 
 .list-item:hover {
-  background-color: #38302e;
+  background-color: #788585;
 }
 
 .form-label, .form-input, .form-textarea {
