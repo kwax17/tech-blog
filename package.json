@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "serve -s build",
-    "heroku-postbuild": "npm run build"
+    "start": "node server.js",
+    "heroku-postbuild": "npm run-script"
   },
   "repository": {
     "type": "git",
