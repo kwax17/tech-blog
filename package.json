@@ -2,11 +2,13 @@
   "name": "tech-blog",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "18.x"
+  },
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "node server.js",
-    "heroku-postbuild": "npm run-script"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
