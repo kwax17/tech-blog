@@ -2,9 +2,6 @@
   "name": "tech-blog",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "18.x"
-  },
   "main": "server.js",
   "scripts": {
     "test": "jest",
@@ -30,6 +27,7 @@
     "express-session": "^1.17.3",
     "handlebars": "^4.7.7",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.21.4"
+    "sequelize": "^6.21.4",
+    "node": "16.16.0"
   }
 }
