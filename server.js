@@ -6,7 +6,7 @@ const routes = require('./controllers');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const HOST = process.env.YOUR_HOST || '127.0.0.1';
+const HOST = process.env.YOUR_HOST || '0.0.0.0';
 
 const sequelize = require("./config/config");
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
