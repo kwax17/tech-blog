@@ -14,6 +14,8 @@ You must install dotenv, express, express-handlebars, bcrypt, express-session, m
 
 ## Usage
 ![Video showing walkthrough](./public/images/walkthrough.mov)
+Youtube: https://youtu.be/vJtTwZs32sQ
+![Video showing local host walkthrough](./public/images/localhost.mov)
 Youtube: https://youtu.be/3lF_Yqw-grE
 
 ## Questions
